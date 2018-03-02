@@ -8,13 +8,6 @@
         body{
             background-color: #9a9b9a;
         }
-        H2{
-            font-family:”Trebuchet MS”, Helvetica, sans-serif;
-            color:#FFF;
-            background-color:#C63;
-            margin-bottom:1px;
-            padding:15px;
-        }
     </style>
     <body>
         <div>
