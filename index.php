@@ -4,13 +4,16 @@
         <meta charset="utf-8"/>
         <title>Tabuada</title>
     </head>
-<style>
-    body{
-        background-color: #9a9b9a;
-    }
-</style>
+    <style>
+        body{
+            background-color: #9a9b9a;
+        }
+        .moldura {
+            display: inline-block
+        }
+    </style>
     <body>
-        <div>
+        <div class="moldura">
             <fieldset><legend>Tabuada Escolha um numero</legend>
                     <form method="get" action="tabuada.php">
                         <select name="num">

@@ -8,9 +8,12 @@
         body{
             background-color: #9a9b9a;
         }
+        .moldura {
+            display: inline-block
+        }
     </style>
     <body>
-        <div>
+        <div class="moldura">
             <?php
                 $n = isset($_GET["num"]) ? $_GET["num"] : 1;
             ?>
